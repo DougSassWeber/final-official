@@ -32,3 +32,40 @@
 2017-07-20  1:19:24 140266497289288 [Warning] 'proxies_priv' entry '@% root@17986c73b0e8' ignored in --skip-name-resolve mode.
 2017-07-20  1:19:24 140266497289288 [Note] /usr/bin/mysqld: ready for connections.
 Version: '10.1.16-MariaDB'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+170726 23:44:29 mysqld_safe Starting mysqld daemon with databases from /data/db/mysql
+2017-07-26 23:44:29 140405893868616 [Note] /usr/bin/mysqld (mysqld 10.1.16-MariaDB) starting as process 199 ...
+2017-07-26 23:44:29 140405893868616 [Warning] Setting lower_case_table_names=2 because file system for /data/db/mysql/ is case insensitive
+2017-07-26 23:44:29 7fb2cb6dac48 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2017-07-26 23:44:29 140405893868616 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-07-26 23:44:29 140405893868616 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-07-26 23:44:29 140405893868616 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2017-07-26 23:44:29 140405893868616 [Note] InnoDB: Memory barrier is not used
+2017-07-26 23:44:29 140405893868616 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2017-07-26 23:44:29 140405893868616 [Note] InnoDB: Using Linux native AIO
+2017-07-26 23:44:29 140405893868616 [Note] InnoDB: Using SSE crc32 instructions
+2017-07-26 23:44:29 140405893868616 [Note] InnoDB: Initializing buffer pool, size = 800.0M
+2017-07-26 23:44:29 140405893868616 [Note] InnoDB: Completed initialization of buffer pool
+2017-07-26 23:44:29 140405893868616 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-07-26 23:44:29 140405893868616 [Note] InnoDB: The log sequence numbers 1616836 and 1616836 in ibdata files do not match the log sequence number 1616856 in the ib_logfiles!
+2017-07-26 23:44:29 140405893868616 [Note] InnoDB: Database was not shutdown normally!
+2017-07-26 23:44:29 140405893868616 [Note] InnoDB: Starting crash recovery.
+2017-07-26 23:44:29 140405893868616 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-07-26 23:44:29 140405893868616 [Note] InnoDB: Restoring possible half-written data pages 
+2017-07-26 23:44:29 140405893868616 [Note] InnoDB: from the doublewrite buffer...
+2017-07-26 23:44:30 140405893868616 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-07-26 23:44:30 140405893868616 [Note] InnoDB: Waiting for purge to start
+2017-07-26 23:44:30 140405893868616 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.30-76.3 started; log sequence number 1616856
+2017-07-26 23:44:30 140404676393648 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2017-07-26 23:44:30 140405893868616 [Note] Plugin 'FEEDBACK' is disabled.
+2017-07-26 23:44:30 140405893868616 [Note] Recovering after a crash using mysql-bin
+2017-07-26 23:44:30 140405893868616 [Note] Starting crash recovery...
+2017-07-26 23:44:30 140405893868616 [Note] Crash recovery finished.
+2017-07-26 23:44:30 140405893868616 [Note] Server socket created on IP: '0.0.0.0'.
+2017-07-26 23:44:30 140405893868616 [Warning] 'user' entry 'root@17986c73b0e8' ignored in --skip-name-resolve mode.
+2017-07-26 23:44:30 140405893868616 [Warning] 'user' entry '@17986c73b0e8' ignored in --skip-name-resolve mode.
+2017-07-26 23:44:30 140405893868616 [Warning] 'proxies_priv' entry '@% root@17986c73b0e8' ignored in --skip-name-resolve mode.
+2017-07-26 23:44:30 140405893868616 [Note] /usr/bin/mysqld: ready for connections.
+Version: '10.1.16-MariaDB'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2017-07-27  0:15:14 140404675418800 [Warning] 'user' entry 'root@17986c73b0e8' ignored in --skip-name-resolve mode.
+2017-07-27  0:15:14 140404675418800 [Warning] 'user' entry '@17986c73b0e8' ignored in --skip-name-resolve mode.
+2017-07-27  0:15:14 140404675418800 [Warning] 'proxies_priv' entry '@% root@17986c73b0e8' ignored in --skip-name-resolve mode.

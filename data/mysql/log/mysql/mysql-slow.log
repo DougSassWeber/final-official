@@ -7,3 +7,1399 @@ Time                 Id Command    Argument
 /usr/bin/mysqld, Version: 10.1.16-MariaDB (MariaDB Server). started with:
 Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
 Time                 Id Command    Argument
+/usr/bin/mysqld, Version: 10.1.16-MariaDB (MariaDB Server). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+# Time: 170727  0:15:50
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 20  Schema:   QC_hit: No
+# Query_time: 0.018156  Lock_time: 0.000582  Rows_sent: 4  Rows_examined: 8
+# Rows_affected: 0
+SET timestamp=1501114550;
+/* ApplicationName=PhpStorm 2017.2 */ select schema_name as name
+from information_schema.schemata
+order by if(schema() = schema_name, 1, 2), schema_name;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 20  Schema:   QC_hit: No
+# Query_time: 0.026245  Lock_time: 0.000673  Rows_sent: 4  Rows_examined: 8
+# Rows_affected: 0
+SET timestamp=1501114550;
+/* ApplicationName=PhpStorm 2017.2 */ select schema_name as name
+from information_schema.schemata
+order by if(schema() = schema_name, 1, 2), schema_name;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 20  Schema:   QC_hit: No
+# Query_time: 0.006383  Lock_time: 0.000507  Rows_sent: 78  Rows_examined: 78
+# Rows_affected: 0
+SET timestamp=1501114550;
+/* ApplicationName=PhpStorm 2017.2 */ select table_name, table_type, table_comment
+from information_schema.tables
+where table_schema = 'information_schema';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 20  Schema:   QC_hit: No
+# Query_time: 0.015080  Lock_time: 0.000959  Rows_sent: 780  Rows_examined: 1560
+# Rows_affected: 0
+SET timestamp=1501114550;
+/* ApplicationName=PhpStorm 2017.2 */ select
+ordinal_position,
+column_name,
+column_type,
+column_default,
+table_name,
+column_comment,
+is_nullable,
+extra
+from information_schema.columns
+where table_schema = 'information_schema'
+order by table_name, ordinal_position;
+# Time: 170727  0:17:43
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 21  Schema:   QC_hit: No
+# Query_time: 0.024090  Lock_time: 0.000470  Rows_sent: 4  Rows_examined: 8
+# Rows_affected: 0
+SET timestamp=1501114663;
+/* ApplicationName=PhpStorm 2017.2 */ select schema_name as name
+from information_schema.schemata
+order by if(schema() = schema_name, 1, 2), schema_name;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 21  Schema:   QC_hit: No
+# Query_time: 0.015522  Lock_time: 0.000510  Rows_sent: 4  Rows_examined: 8
+# Rows_affected: 0
+SET timestamp=1501114663;
+/* ApplicationName=PhpStorm 2017.2 */ select schema_name as name
+from information_schema.schemata
+order by if(schema() = schema_name, 1, 2), schema_name;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 21  Schema:   QC_hit: No
+# Query_time: 0.012540  Lock_time: 0.001305  Rows_sent: 78  Rows_examined: 78
+# Rows_affected: 0
+SET timestamp=1501114663;
+/* ApplicationName=PhpStorm 2017.2 */ select table_name, table_type, table_comment
+from information_schema.tables
+where table_schema = 'information_schema';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 21  Schema:   QC_hit: No
+# Query_time: 0.020136  Lock_time: 0.000794  Rows_sent: 780  Rows_examined: 1560
+# Rows_affected: 0
+SET timestamp=1501114663;
+/* ApplicationName=PhpStorm 2017.2 */ select
+ordinal_position,
+column_name,
+column_type,
+column_default,
+table_name,
+column_comment,
+is_nullable,
+extra
+from information_schema.columns
+where table_schema = 'information_schema'
+order by table_name, ordinal_position;
+# Time: 170727  0:18:11
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 22  Schema:   QC_hit: No
+# Query_time: 0.031643  Lock_time: 0.001972  Rows_sent: 4  Rows_examined: 8
+# Rows_affected: 0
+SET timestamp=1501114691;
+/* ApplicationName=PhpStorm 2017.2 */ select schema_name as name
+from information_schema.schemata
+order by if(schema() = schema_name, 1, 2), schema_name;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 22  Schema:   QC_hit: No
+# Query_time: 0.022821  Lock_time: 0.000662  Rows_sent: 4  Rows_examined: 8
+# Rows_affected: 0
+SET timestamp=1501114691;
+/* ApplicationName=PhpStorm 2017.2 */ select schema_name as name
+from information_schema.schemata
+order by if(schema() = schema_name, 1, 2), schema_name;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 22  Schema:   QC_hit: No
+# Query_time: 0.008714  Lock_time: 0.001037  Rows_sent: 78  Rows_examined: 78
+# Rows_affected: 0
+SET timestamp=1501114691;
+/* ApplicationName=PhpStorm 2017.2 */ select table_name, table_type, table_comment
+from information_schema.tables
+where table_schema = 'information_schema';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 22  Schema:   QC_hit: No
+# Query_time: 0.014445  Lock_time: 0.001123  Rows_sent: 780  Rows_examined: 1560
+# Rows_affected: 0
+SET timestamp=1501114691;
+/* ApplicationName=PhpStorm 2017.2 */ select
+ordinal_position,
+column_name,
+column_type,
+column_default,
+table_name,
+column_comment,
+is_nullable,
+extra
+from information_schema.columns
+where table_schema = 'information_schema'
+order by table_name, ordinal_position;
+# Time: 170727  0:19:06
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 23  Schema:   QC_hit: No
+# Query_time: 0.023731  Lock_time: 0.001029  Rows_sent: 4  Rows_examined: 8
+# Rows_affected: 0
+SET timestamp=1501114746;
+/* ApplicationName=PhpStorm 2017.2 */ select schema_name as name
+from information_schema.schemata
+order by if(schema() = schema_name, 1, 2), schema_name;
+# Time: 170727  0:19:08
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.021923  Lock_time: 0.000572  Rows_sent: 4  Rows_examined: 8
+# Rows_affected: 0
+SET timestamp=1501114748;
+/* ApplicationName=PhpStorm 2017.2 */ select schema_name as name
+from information_schema.schemata
+order by if(schema() = schema_name, 1, 2), schema_name;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.017362  Lock_time: 0.000498  Rows_sent: 4  Rows_examined: 8
+# Rows_affected: 0
+SET timestamp=1501114748;
+/* ApplicationName=PhpStorm 2017.2 */ select schema_name as name
+from information_schema.schemata
+order by if(schema() = schema_name, 1, 2), schema_name;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.005136  Lock_time: 0.000549  Rows_sent: 78  Rows_examined: 78
+# Rows_affected: 0
+SET timestamp=1501114748;
+/* ApplicationName=PhpStorm 2017.2 */ select table_name, table_type, table_comment
+from information_schema.tables
+where table_schema = 'information_schema';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.028554  Lock_time: 0.001132  Rows_sent: 780  Rows_examined: 1560
+# Rows_affected: 0
+SET timestamp=1501114748;
+/* ApplicationName=PhpStorm 2017.2 */ select
+ordinal_position,
+column_name,
+column_type,
+column_default,
+table_name,
+column_comment,
+is_nullable,
+extra
+from information_schema.columns
+where table_schema = 'information_schema'
+order by table_name, ordinal_position;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.074433  Lock_time: 0.000601  Rows_sent: 30  Rows_examined: 30
+# Rows_affected: 0
+SET timestamp=1501114748;
+/* ApplicationName=PhpStorm 2017.2 */ select table_name, table_type, table_comment
+from information_schema.tables
+where table_schema = 'mysql';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.020373  Lock_time: 0.002559  Rows_sent: 263  Rows_examined: 526
+# Rows_affected: 0
+SET timestamp=1501114748;
+/* ApplicationName=PhpStorm 2017.2 */ select
+ordinal_position,
+column_name,
+column_type,
+column_default,
+table_name,
+column_comment,
+is_nullable,
+extra
+from information_schema.columns
+where table_schema = 'mysql'
+order by table_name, ordinal_position;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.171450  Lock_time: 0.001197  Rows_sent: 8  Rows_examined: 82
+# Rows_affected: 0
+SET timestamp=1501114748;
+/* ApplicationName=PhpStorm 2017.2 */ select
+  table_name,
+  index_name,
+  group_concat(column_name order by seq_in_index separator '\n') as column_names,
+  non_unique
+from information_schema.statistics
+where table_schema = 'mysql' and
+      index_schema = 'mysql' and
+      index_name <> 'PRIMARY'
+group by
+  table_catalog,
+  table_schema,
+  table_name,
+  index_name,
+  index_type,
+  non_unique;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.008286  Lock_time: 0.006232  Rows_sent: 0  Rows_examined: 2
+# Rows_affected: 0
+SET timestamp=1501114748;
+/* ApplicationName=PhpStorm 2017.2 */ select
+ specific_name,
+ routine_type,
+ routine_definition,
+ routine_comment,
+ dtd_identifier
+from information_schema.routines
+where routine_schema = 'mysql';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.039492  Lock_time: 0.000828  Rows_sent: 1  Rows_examined: 1
+# Rows_affected: 0
+SET timestamp=1501114748;
+/* ApplicationName=PhpStorm 2017.2 */ select table_name from information_schema.tables
+where table_schema collate utf8_general_ci = 'information_schema' and table_name collate utf8_general_ci = 'parameters';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.006895  Lock_time: 0.005706  Rows_sent: 0  Rows_examined: 9
+# Rows_affected: 0
+SET timestamp=1501114748;
+/* ApplicationName=PhpStorm 2017.2 */ select specific_name,
+parameter_name,
+parameter_mode,
+dtd_identifier
+from information_schema.parameters
+where specific_schema = 'mysql' and ordinal_position > 0
+order by specific_name, ordinal_position;
+# Time: 170727  0:19:09
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.221212  Lock_time: 0.003491  Rows_sent: 31  Rows_examined: 229
+# Rows_affected: 0
+SET timestamp=1501114749;
+/* ApplicationName=PhpStorm 2017.2 */ select
+  c.constraint_name,
+  c.table_name,
+  c.constraint_type,
+  group_concat(u.column_name order by u.ordinal_position separator '\n' ) as column_names,
+  u.referenced_table_schema,
+  u.referenced_table_name,
+  group_concat(u.referenced_column_name order by u.position_in_unique_constraint separator '\n') as ref_column_names,
+  r.match_option,
+  r.update_rule,
+  r.delete_rule
+from information_schema.table_constraints c
+  left join information_schema.key_column_usage u on
+      u.constraint_schema   = c.constraint_schema
+  and u.constraint_name     = c.constraint_name
+  and u.table_name = c.table_name
+  and u.table_schema = 'mysql'
+  and ((c.constraint_type = 'UNIQUE' and u.referenced_table_name is null) or c.constraint_type <> 'UNIQUE')
+  left join information_schema.referential_constraints r on
+      r.constraint_schema   = c.constraint_schema
+  and r.constraint_name     = c.constraint_name
+where c.table_schema = 'mysql'
+  and u.table_schema = 'mysql'
+group by
+    c.constraint_schema
+  , c.constraint_name
+  , c.table_schema
+  , c.table_name
+  , c.constraint_type
+  , u.referenced_table_schema
+  , u.referenced_table_name
+  , r.match_option
+  , r.update_rule
+  , r.delete_rule
+order by
+    c.table_schema
+  , c.table_name
+  , c.constraint_schema
+  , c.constraint_name;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.070007  Lock_time: 0.003496  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114749;
+/* ApplicationName=PhpStorm 2017.2 */ select
+trigger_name,
+event_object_table,
+event_manipulation,
+action_timing
+from information_schema.triggers
+where trigger_schema = 'mysql';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.017265  Lock_time: 0.002387  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114749;
+/* ApplicationName=PhpStorm 2017.2 */ select table_name, view_definition
+from information_schema.views
+where table_schema = 'mysql';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.003675  Lock_time: 0.001814  Rows_sent: 0  Rows_examined: 2
+# Rows_affected: 0
+SET timestamp=1501114749;
+/* ApplicationName=PhpStorm 2017.2 */ select specific_name, routine_definition
+from information_schema.routines
+where routine_schema = 'mysql';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.138595  Lock_time: 0.007267  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114749;
+/* ApplicationName=PhpStorm 2017.2 */ select
+trigger_name,
+event_object_table,
+action_statement
+from information_schema.triggers
+where trigger_schema = 'mysql';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.010976  Lock_time: 0.002353  Rows_sent: 52  Rows_examined: 52
+# Rows_affected: 0
+SET timestamp=1501114749;
+/* ApplicationName=PhpStorm 2017.2 */ select table_name, table_type, table_comment
+from information_schema.tables
+where table_schema = 'performance_schema';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.022501  Lock_time: 0.003902  Rows_sent: 795  Rows_examined: 1590
+# Rows_affected: 0
+SET timestamp=1501114749;
+/* ApplicationName=PhpStorm 2017.2 */ select
+ordinal_position,
+column_name,
+column_type,
+column_default,
+table_name,
+column_comment,
+is_nullable,
+extra
+from information_schema.columns
+where table_schema = 'performance_schema'
+order by table_name, ordinal_position;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.010654  Lock_time: 0.000888  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114749;
+/* ApplicationName=PhpStorm 2017.2 */ select
+  table_name,
+  index_name,
+  group_concat(column_name order by seq_in_index separator '\n') as column_names,
+  non_unique
+from information_schema.statistics
+where table_schema = 'performance_schema' and
+      index_schema = 'performance_schema' and
+      index_name <> 'PRIMARY'
+group by
+  table_catalog,
+  table_schema,
+  table_name,
+  index_name,
+  index_type,
+  non_unique;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.005980  Lock_time: 0.005579  Rows_sent: 0  Rows_examined: 2
+# Rows_affected: 0
+SET timestamp=1501114749;
+/* ApplicationName=PhpStorm 2017.2 */ select
+ specific_name,
+ routine_type,
+ routine_definition,
+ routine_comment,
+ dtd_identifier
+from information_schema.routines
+where routine_schema = 'performance_schema';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.091625  Lock_time: 0.009784  Rows_sent: 1  Rows_examined: 1
+# Rows_affected: 0
+SET timestamp=1501114749;
+/* ApplicationName=PhpStorm 2017.2 */ select table_name from information_schema.tables
+where table_schema collate utf8_general_ci = 'information_schema' and table_name collate utf8_general_ci = 'parameters';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.003116  Lock_time: 0.002563  Rows_sent: 0  Rows_examined: 9
+# Rows_affected: 0
+SET timestamp=1501114749;
+/* ApplicationName=PhpStorm 2017.2 */ select specific_name,
+parameter_name,
+parameter_mode,
+dtd_identifier
+from information_schema.parameters
+where specific_schema = 'performance_schema' and ordinal_position > 0
+order by specific_name, ordinal_position;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.039935  Lock_time: 0.001615  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114749;
+/* ApplicationName=PhpStorm 2017.2 */ select
+  c.constraint_name,
+  c.table_name,
+  c.constraint_type,
+  group_concat(u.column_name order by u.ordinal_position separator '\n' ) as column_names,
+  u.referenced_table_schema,
+  u.referenced_table_name,
+  group_concat(u.referenced_column_name order by u.position_in_unique_constraint separator '\n') as ref_column_names,
+  r.match_option,
+  r.update_rule,
+  r.delete_rule
+from information_schema.table_constraints c
+  left join information_schema.key_column_usage u on
+      u.constraint_schema   = c.constraint_schema
+  and u.constraint_name     = c.constraint_name
+  and u.table_name = c.table_name
+  and u.table_schema = 'performance_schema'
+  and ((c.constraint_type = 'UNIQUE' and u.referenced_table_name is null) or c.constraint_type <> 'UNIQUE')
+  left join information_schema.referential_constraints r on
+      r.constraint_schema   = c.constraint_schema
+  and r.constraint_name     = c.constraint_name
+where c.table_schema = 'performance_schema'
+  and u.table_schema = 'performance_schema'
+group by
+    c.constraint_schema
+  , c.constraint_name
+  , c.table_schema
+  , c.table_name
+  , c.constraint_type
+  , u.referenced_table_schema
+  , u.referenced_table_name
+  , r.match_option
+  , r.update_rule
+  , r.delete_rule
+order by
+    c.table_schema
+  , c.table_name
+  , c.constraint_schema
+  , c.constraint_name;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.099055  Lock_time: 0.002077  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114749;
+/* ApplicationName=PhpStorm 2017.2 */ select
+trigger_name,
+event_object_table,
+event_manipulation,
+action_timing
+from information_schema.triggers
+where trigger_schema = 'performance_schema';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.002527  Lock_time: 0.000731  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114749;
+/* ApplicationName=PhpStorm 2017.2 */ select table_name, view_definition
+from information_schema.views
+where table_schema = 'performance_schema';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.001670  Lock_time: 0.001329  Rows_sent: 0  Rows_examined: 2
+# Rows_affected: 0
+SET timestamp=1501114749;
+/* ApplicationName=PhpStorm 2017.2 */ select specific_name, routine_definition
+from information_schema.routines
+where routine_schema = 'performance_schema';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.097971  Lock_time: 0.000770  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114749;
+/* ApplicationName=PhpStorm 2017.2 */ select
+trigger_name,
+event_object_table,
+action_statement
+from information_schema.triggers
+where trigger_schema = 'performance_schema';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.005989  Lock_time: 0.001236  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114749;
+/* ApplicationName=PhpStorm 2017.2 */ select table_name, table_type, table_comment
+from information_schema.tables
+where table_schema = 'test';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.010541  Lock_time: 0.004478  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114749;
+/* ApplicationName=PhpStorm 2017.2 */ select
+ordinal_position,
+column_name,
+column_type,
+column_default,
+table_name,
+column_comment,
+is_nullable,
+extra
+from information_schema.columns
+where table_schema = 'test'
+order by table_name, ordinal_position;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.005069  Lock_time: 0.001471  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114749;
+/* ApplicationName=PhpStorm 2017.2 */ select
+  table_name,
+  index_name,
+  group_concat(column_name order by seq_in_index separator '\n') as column_names,
+  non_unique
+from information_schema.statistics
+where table_schema = 'test' and
+      index_schema = 'test' and
+      index_name <> 'PRIMARY'
+group by
+  table_catalog,
+  table_schema,
+  table_name,
+  index_name,
+  index_type,
+  non_unique;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.012441  Lock_time: 0.007895  Rows_sent: 2  Rows_examined: 2
+# Rows_affected: 0
+SET timestamp=1501114749;
+/* ApplicationName=PhpStorm 2017.2 */ select
+ specific_name,
+ routine_type,
+ routine_definition,
+ routine_comment,
+ dtd_identifier
+from information_schema.routines
+where routine_schema = 'test';
+# Time: 170727  0:19:10
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.038029  Lock_time: 0.000570  Rows_sent: 1  Rows_examined: 1
+# Rows_affected: 0
+SET timestamp=1501114750;
+/* ApplicationName=PhpStorm 2017.2 */ select table_name from information_schema.tables
+where table_schema collate utf8_general_ci = 'information_schema' and table_name collate utf8_general_ci = 'parameters';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.002924  Lock_time: 0.001532  Rows_sent: 9  Rows_examined: 18
+# Rows_affected: 0
+SET timestamp=1501114750;
+/* ApplicationName=PhpStorm 2017.2 */ select specific_name,
+parameter_name,
+parameter_mode,
+dtd_identifier
+from information_schema.parameters
+where specific_schema = 'test' and ordinal_position > 0
+order by specific_name, ordinal_position;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.069492  Lock_time: 0.001616  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114750;
+/* ApplicationName=PhpStorm 2017.2 */ select
+  c.constraint_name,
+  c.table_name,
+  c.constraint_type,
+  group_concat(u.column_name order by u.ordinal_position separator '\n' ) as column_names,
+  u.referenced_table_schema,
+  u.referenced_table_name,
+  group_concat(u.referenced_column_name order by u.position_in_unique_constraint separator '\n') as ref_column_names,
+  r.match_option,
+  r.update_rule,
+  r.delete_rule
+from information_schema.table_constraints c
+  left join information_schema.key_column_usage u on
+      u.constraint_schema   = c.constraint_schema
+  and u.constraint_name     = c.constraint_name
+  and u.table_name = c.table_name
+  and u.table_schema = 'test'
+  and ((c.constraint_type = 'UNIQUE' and u.referenced_table_name is null) or c.constraint_type <> 'UNIQUE')
+  left join information_schema.referential_constraints r on
+      r.constraint_schema   = c.constraint_schema
+  and r.constraint_name     = c.constraint_name
+where c.table_schema = 'test'
+  and u.table_schema = 'test'
+group by
+    c.constraint_schema
+  , c.constraint_name
+  , c.table_schema
+  , c.table_name
+  , c.constraint_type
+  , u.referenced_table_schema
+  , u.referenced_table_name
+  , r.match_option
+  , r.update_rule
+  , r.delete_rule
+order by
+    c.table_schema
+  , c.table_name
+  , c.constraint_schema
+  , c.constraint_name;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.109552  Lock_time: 0.001283  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114750;
+/* ApplicationName=PhpStorm 2017.2 */ select
+trigger_name,
+event_object_table,
+event_manipulation,
+action_timing
+from information_schema.triggers
+where trigger_schema = 'test';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.003110  Lock_time: 0.000917  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114750;
+/* ApplicationName=PhpStorm 2017.2 */ select table_name, view_definition
+from information_schema.views
+where table_schema = 'test';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.001982  Lock_time: 0.001599  Rows_sent: 2  Rows_examined: 2
+# Rows_affected: 0
+SET timestamp=1501114750;
+/* ApplicationName=PhpStorm 2017.2 */ select specific_name, routine_definition
+from information_schema.routines
+where routine_schema = 'test';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 24  Schema:   QC_hit: No
+# Query_time: 0.111197  Lock_time: 0.001091  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114750;
+/* ApplicationName=PhpStorm 2017.2 */ select
+trigger_name,
+event_object_table,
+action_statement
+from information_schema.triggers
+where trigger_schema = 'test';
+# Time: 170727  0:19:53
+# User@Host: foo[foo] @  [172.18.0.1]
+# Thread_id: 26  Schema:   QC_hit: No
+# Query_time: 0.015830  Lock_time: 0.000504  Rows_sent: 4  Rows_examined: 8
+# Rows_affected: 0
+SET timestamp=1501114793;
+/* ApplicationName=PhpStorm 2017.2 */ select schema_name as name
+from information_schema.schemata
+order by if(schema() = schema_name, 1, 2), schema_name;
+# User@Host: foo[foo] @  [172.18.0.1]
+# Thread_id: 26  Schema:   QC_hit: No
+# Query_time: 0.022966  Lock_time: 0.000549  Rows_sent: 4  Rows_examined: 8
+# Rows_affected: 0
+SET timestamp=1501114793;
+/* ApplicationName=PhpStorm 2017.2 */ select schema_name as name
+from information_schema.schemata
+order by if(schema() = schema_name, 1, 2), schema_name;
+# User@Host: foo[foo] @  [172.18.0.1]
+# Thread_id: 26  Schema:   QC_hit: No
+# Query_time: 0.009435  Lock_time: 0.001297  Rows_sent: 78  Rows_examined: 78
+# Rows_affected: 0
+SET timestamp=1501114793;
+/* ApplicationName=PhpStorm 2017.2 */ select table_name, table_type, table_comment
+from information_schema.tables
+where table_schema = 'information_schema';
+# Time: 170727  0:19:54
+# User@Host: foo[foo] @  [172.18.0.1]
+# Thread_id: 26  Schema:   QC_hit: No
+# Query_time: 0.018391  Lock_time: 0.000778  Rows_sent: 780  Rows_examined: 1560
+# Rows_affected: 0
+SET timestamp=1501114794;
+/* ApplicationName=PhpStorm 2017.2 */ select
+ordinal_position,
+column_name,
+column_type,
+column_default,
+table_name,
+column_comment,
+is_nullable,
+extra
+from information_schema.columns
+where table_schema = 'information_schema'
+order by table_name, ordinal_position;
+# Time: 170727  0:21:00
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.012983  Lock_time: 0.000513  Rows_sent: 5  Rows_examined: 10
+# Rows_affected: 0
+SET timestamp=1501114860;
+/* ApplicationName=PhpStorm 2017.2 */ select schema_name as name
+from information_schema.schemata
+order by if(schema() = schema_name, 1, 2), schema_name;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.020693  Lock_time: 0.000621  Rows_sent: 5  Rows_examined: 10
+# Rows_affected: 0
+SET timestamp=1501114860;
+/* ApplicationName=PhpStorm 2017.2 */ select schema_name as name
+from information_schema.schemata
+order by if(schema() = schema_name, 1, 2), schema_name;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.009886  Lock_time: 0.000825  Rows_sent: 78  Rows_examined: 78
+# Rows_affected: 0
+SET timestamp=1501114860;
+/* ApplicationName=PhpStorm 2017.2 */ select table_name, table_type, table_comment
+from information_schema.tables
+where table_schema = 'information_schema';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.031087  Lock_time: 0.004071  Rows_sent: 780  Rows_examined: 1560
+# Rows_affected: 0
+SET timestamp=1501114860;
+/* ApplicationName=PhpStorm 2017.2 */ select
+ordinal_position,
+column_name,
+column_type,
+column_default,
+table_name,
+column_comment,
+is_nullable,
+extra
+from information_schema.columns
+where table_schema = 'information_schema'
+order by table_name, ordinal_position;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.027105  Lock_time: 0.001662  Rows_sent: 30  Rows_examined: 30
+# Rows_affected: 0
+SET timestamp=1501114860;
+/* ApplicationName=PhpStorm 2017.2 */ select table_name, table_type, table_comment
+from information_schema.tables
+where table_schema = 'mysql';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.016982  Lock_time: 0.000893  Rows_sent: 263  Rows_examined: 526
+# Rows_affected: 0
+SET timestamp=1501114860;
+/* ApplicationName=PhpStorm 2017.2 */ select
+ordinal_position,
+column_name,
+column_type,
+column_default,
+table_name,
+column_comment,
+is_nullable,
+extra
+from information_schema.columns
+where table_schema = 'mysql'
+order by table_name, ordinal_position;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.027242  Lock_time: 0.001019  Rows_sent: 8  Rows_examined: 82
+# Rows_affected: 0
+SET timestamp=1501114860;
+/* ApplicationName=PhpStorm 2017.2 */ select
+  table_name,
+  index_name,
+  group_concat(column_name order by seq_in_index separator '\n') as column_names,
+  non_unique
+from information_schema.statistics
+where table_schema = 'mysql' and
+      index_schema = 'mysql' and
+      index_name <> 'PRIMARY'
+group by
+  table_catalog,
+  table_schema,
+  table_name,
+  index_name,
+  index_type,
+  non_unique;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.002622  Lock_time: 0.002135  Rows_sent: 0  Rows_examined: 2
+# Rows_affected: 0
+SET timestamp=1501114860;
+/* ApplicationName=PhpStorm 2017.2 */ select
+ specific_name,
+ routine_type,
+ routine_definition,
+ routine_comment,
+ dtd_identifier
+from information_schema.routines
+where routine_schema = 'mysql';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.037782  Lock_time: 0.001197  Rows_sent: 1  Rows_examined: 1
+# Rows_affected: 0
+SET timestamp=1501114860;
+/* ApplicationName=PhpStorm 2017.2 */ select table_name from information_schema.tables
+where table_schema collate utf8_general_ci = 'information_schema' and table_name collate utf8_general_ci = 'parameters';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.001646  Lock_time: 0.001226  Rows_sent: 0  Rows_examined: 9
+# Rows_affected: 0
+SET timestamp=1501114860;
+/* ApplicationName=PhpStorm 2017.2 */ select specific_name,
+parameter_name,
+parameter_mode,
+dtd_identifier
+from information_schema.parameters
+where specific_schema = 'mysql' and ordinal_position > 0
+order by specific_name, ordinal_position;
+# Time: 170727  0:21:01
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.084720  Lock_time: 0.000866  Rows_sent: 31  Rows_examined: 229
+# Rows_affected: 0
+SET timestamp=1501114861;
+/* ApplicationName=PhpStorm 2017.2 */ select
+  c.constraint_name,
+  c.table_name,
+  c.constraint_type,
+  group_concat(u.column_name order by u.ordinal_position separator '\n' ) as column_names,
+  u.referenced_table_schema,
+  u.referenced_table_name,
+  group_concat(u.referenced_column_name order by u.position_in_unique_constraint separator '\n') as ref_column_names,
+  r.match_option,
+  r.update_rule,
+  r.delete_rule
+from information_schema.table_constraints c
+  left join information_schema.key_column_usage u on
+      u.constraint_schema   = c.constraint_schema
+  and u.constraint_name     = c.constraint_name
+  and u.table_name = c.table_name
+  and u.table_schema = 'mysql'
+  and ((c.constraint_type = 'UNIQUE' and u.referenced_table_name is null) or c.constraint_type <> 'UNIQUE')
+  left join information_schema.referential_constraints r on
+      r.constraint_schema   = c.constraint_schema
+  and r.constraint_name     = c.constraint_name
+where c.table_schema = 'mysql'
+  and u.table_schema = 'mysql'
+group by
+    c.constraint_schema
+  , c.constraint_name
+  , c.table_schema
+  , c.table_name
+  , c.constraint_type
+  , u.referenced_table_schema
+  , u.referenced_table_name
+  , r.match_option
+  , r.update_rule
+  , r.delete_rule
+order by
+    c.table_schema
+  , c.table_name
+  , c.constraint_schema
+  , c.constraint_name;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.065803  Lock_time: 0.001447  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114861;
+/* ApplicationName=PhpStorm 2017.2 */ select
+trigger_name,
+event_object_table,
+event_manipulation,
+action_timing
+from information_schema.triggers
+where trigger_schema = 'mysql';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.012564  Lock_time: 0.003636  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114861;
+/* ApplicationName=PhpStorm 2017.2 */ select table_name, view_definition
+from information_schema.views
+where table_schema = 'mysql';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.001146  Lock_time: 0.000911  Rows_sent: 0  Rows_examined: 2
+# Rows_affected: 0
+SET timestamp=1501114861;
+/* ApplicationName=PhpStorm 2017.2 */ select specific_name, routine_definition
+from information_schema.routines
+where routine_schema = 'mysql';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.117539  Lock_time: 0.002246  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114861;
+/* ApplicationName=PhpStorm 2017.2 */ select
+trigger_name,
+event_object_table,
+action_statement
+from information_schema.triggers
+where trigger_schema = 'mysql';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.004881  Lock_time: 0.000681  Rows_sent: 52  Rows_examined: 52
+# Rows_affected: 0
+SET timestamp=1501114861;
+/* ApplicationName=PhpStorm 2017.2 */ select table_name, table_type, table_comment
+from information_schema.tables
+where table_schema = 'performance_schema';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.019760  Lock_time: 0.000983  Rows_sent: 795  Rows_examined: 1590
+# Rows_affected: 0
+SET timestamp=1501114861;
+/* ApplicationName=PhpStorm 2017.2 */ select
+ordinal_position,
+column_name,
+column_type,
+column_default,
+table_name,
+column_comment,
+is_nullable,
+extra
+from information_schema.columns
+where table_schema = 'performance_schema'
+order by table_name, ordinal_position;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.003514  Lock_time: 0.000657  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114861;
+/* ApplicationName=PhpStorm 2017.2 */ select
+  table_name,
+  index_name,
+  group_concat(column_name order by seq_in_index separator '\n') as column_names,
+  non_unique
+from information_schema.statistics
+where table_schema = 'performance_schema' and
+      index_schema = 'performance_schema' and
+      index_name <> 'PRIMARY'
+group by
+  table_catalog,
+  table_schema,
+  table_name,
+  index_name,
+  index_type,
+  non_unique;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.001357  Lock_time: 0.001119  Rows_sent: 0  Rows_examined: 2
+# Rows_affected: 0
+SET timestamp=1501114861;
+/* ApplicationName=PhpStorm 2017.2 */ select
+ specific_name,
+ routine_type,
+ routine_definition,
+ routine_comment,
+ dtd_identifier
+from information_schema.routines
+where routine_schema = 'performance_schema';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.046639  Lock_time: 0.001188  Rows_sent: 1  Rows_examined: 1
+# Rows_affected: 0
+SET timestamp=1501114861;
+/* ApplicationName=PhpStorm 2017.2 */ select table_name from information_schema.tables
+where table_schema collate utf8_general_ci = 'information_schema' and table_name collate utf8_general_ci = 'parameters';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.001422  Lock_time: 0.001003  Rows_sent: 0  Rows_examined: 9
+# Rows_affected: 0
+SET timestamp=1501114861;
+/* ApplicationName=PhpStorm 2017.2 */ select specific_name,
+parameter_name,
+parameter_mode,
+dtd_identifier
+from information_schema.parameters
+where specific_schema = 'performance_schema' and ordinal_position > 0
+order by specific_name, ordinal_position;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.101315  Lock_time: 0.002287  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114861;
+/* ApplicationName=PhpStorm 2017.2 */ select
+  c.constraint_name,
+  c.table_name,
+  c.constraint_type,
+  group_concat(u.column_name order by u.ordinal_position separator '\n' ) as column_names,
+  u.referenced_table_schema,
+  u.referenced_table_name,
+  group_concat(u.referenced_column_name order by u.position_in_unique_constraint separator '\n') as ref_column_names,
+  r.match_option,
+  r.update_rule,
+  r.delete_rule
+from information_schema.table_constraints c
+  left join information_schema.key_column_usage u on
+      u.constraint_schema   = c.constraint_schema
+  and u.constraint_name     = c.constraint_name
+  and u.table_name = c.table_name
+  and u.table_schema = 'performance_schema'
+  and ((c.constraint_type = 'UNIQUE' and u.referenced_table_name is null) or c.constraint_type <> 'UNIQUE')
+  left join information_schema.referential_constraints r on
+      r.constraint_schema   = c.constraint_schema
+  and r.constraint_name     = c.constraint_name
+where c.table_schema = 'performance_schema'
+  and u.table_schema = 'performance_schema'
+group by
+    c.constraint_schema
+  , c.constraint_name
+  , c.table_schema
+  , c.table_name
+  , c.constraint_type
+  , u.referenced_table_schema
+  , u.referenced_table_name
+  , r.match_option
+  , r.update_rule
+  , r.delete_rule
+order by
+    c.table_schema
+  , c.table_name
+  , c.constraint_schema
+  , c.constraint_name;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.086635  Lock_time: 0.001119  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114861;
+/* ApplicationName=PhpStorm 2017.2 */ select
+trigger_name,
+event_object_table,
+event_manipulation,
+action_timing
+from information_schema.triggers
+where trigger_schema = 'performance_schema';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.003080  Lock_time: 0.000791  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114861;
+/* ApplicationName=PhpStorm 2017.2 */ select table_name, view_definition
+from information_schema.views
+where table_schema = 'performance_schema';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.005223  Lock_time: 0.003417  Rows_sent: 0  Rows_examined: 2
+# Rows_affected: 0
+SET timestamp=1501114861;
+/* ApplicationName=PhpStorm 2017.2 */ select specific_name, routine_definition
+from information_schema.routines
+where routine_schema = 'performance_schema';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.168904  Lock_time: 0.002090  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114861;
+/* ApplicationName=PhpStorm 2017.2 */ select
+trigger_name,
+event_object_table,
+action_statement
+from information_schema.triggers
+where trigger_schema = 'performance_schema';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.002685  Lock_time: 0.000683  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114861;
+/* ApplicationName=PhpStorm 2017.2 */ select table_name, table_type, table_comment
+from information_schema.tables
+where table_schema = 'test';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.005943  Lock_time: 0.001081  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114861;
+/* ApplicationName=PhpStorm 2017.2 */ select
+ordinal_position,
+column_name,
+column_type,
+column_default,
+table_name,
+column_comment,
+is_nullable,
+extra
+from information_schema.columns
+where table_schema = 'test'
+order by table_name, ordinal_position;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.005911  Lock_time: 0.001776  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114861;
+/* ApplicationName=PhpStorm 2017.2 */ select
+  table_name,
+  index_name,
+  group_concat(column_name order by seq_in_index separator '\n') as column_names,
+  non_unique
+from information_schema.statistics
+where table_schema = 'test' and
+      index_schema = 'test' and
+      index_name <> 'PRIMARY'
+group by
+  table_catalog,
+  table_schema,
+  table_name,
+  index_name,
+  index_type,
+  non_unique;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.004320  Lock_time: 0.003558  Rows_sent: 2  Rows_examined: 2
+# Rows_affected: 0
+SET timestamp=1501114861;
+/* ApplicationName=PhpStorm 2017.2 */ select
+ specific_name,
+ routine_type,
+ routine_definition,
+ routine_comment,
+ dtd_identifier
+from information_schema.routines
+where routine_schema = 'test';
+# Time: 170727  0:21:02
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.060014  Lock_time: 0.000677  Rows_sent: 1  Rows_examined: 1
+# Rows_affected: 0
+SET timestamp=1501114862;
+/* ApplicationName=PhpStorm 2017.2 */ select table_name from information_schema.tables
+where table_schema collate utf8_general_ci = 'information_schema' and table_name collate utf8_general_ci = 'parameters';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.004178  Lock_time: 0.002824  Rows_sent: 9  Rows_examined: 18
+# Rows_affected: 0
+SET timestamp=1501114862;
+/* ApplicationName=PhpStorm 2017.2 */ select specific_name,
+parameter_name,
+parameter_mode,
+dtd_identifier
+from information_schema.parameters
+where specific_schema = 'test' and ordinal_position > 0
+order by specific_name, ordinal_position;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.113946  Lock_time: 0.005440  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114862;
+/* ApplicationName=PhpStorm 2017.2 */ select
+  c.constraint_name,
+  c.table_name,
+  c.constraint_type,
+  group_concat(u.column_name order by u.ordinal_position separator '\n' ) as column_names,
+  u.referenced_table_schema,
+  u.referenced_table_name,
+  group_concat(u.referenced_column_name order by u.position_in_unique_constraint separator '\n') as ref_column_names,
+  r.match_option,
+  r.update_rule,
+  r.delete_rule
+from information_schema.table_constraints c
+  left join information_schema.key_column_usage u on
+      u.constraint_schema   = c.constraint_schema
+  and u.constraint_name     = c.constraint_name
+  and u.table_name = c.table_name
+  and u.table_schema = 'test'
+  and ((c.constraint_type = 'UNIQUE' and u.referenced_table_name is null) or c.constraint_type <> 'UNIQUE')
+  left join information_schema.referential_constraints r on
+      r.constraint_schema   = c.constraint_schema
+  and r.constraint_name     = c.constraint_name
+where c.table_schema = 'test'
+  and u.table_schema = 'test'
+group by
+    c.constraint_schema
+  , c.constraint_name
+  , c.table_schema
+  , c.table_name
+  , c.constraint_type
+  , u.referenced_table_schema
+  , u.referenced_table_name
+  , r.match_option
+  , r.update_rule
+  , r.delete_rule
+order by
+    c.table_schema
+  , c.table_name
+  , c.constraint_schema
+  , c.constraint_name;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.119358  Lock_time: 0.001257  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114862;
+/* ApplicationName=PhpStorm 2017.2 */ select
+trigger_name,
+event_object_table,
+event_manipulation,
+action_timing
+from information_schema.triggers
+where trigger_schema = 'test';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.005780  Lock_time: 0.003027  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114862;
+/* ApplicationName=PhpStorm 2017.2 */ select table_name, view_definition
+from information_schema.views
+where table_schema = 'test';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.004592  Lock_time: 0.003525  Rows_sent: 2  Rows_examined: 2
+# Rows_affected: 0
+SET timestamp=1501114862;
+/* ApplicationName=PhpStorm 2017.2 */ select specific_name, routine_definition
+from information_schema.routines
+where routine_schema = 'test';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.127027  Lock_time: 0.001575  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114862;
+/* ApplicationName=PhpStorm 2017.2 */ select
+trigger_name,
+event_object_table,
+action_statement
+from information_schema.triggers
+where trigger_schema = 'test';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.002658  Lock_time: 0.000545  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114862;
+/* ApplicationName=PhpStorm 2017.2 */ select table_name, table_type, table_comment
+from information_schema.tables
+where table_schema = 'cs3620';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.004971  Lock_time: 0.002063  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114862;
+/* ApplicationName=PhpStorm 2017.2 */ select
+ordinal_position,
+column_name,
+column_type,
+column_default,
+table_name,
+column_comment,
+is_nullable,
+extra
+from information_schema.columns
+where table_schema = 'cs3620'
+order by table_name, ordinal_position;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.001993  Lock_time: 0.000570  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114862;
+/* ApplicationName=PhpStorm 2017.2 */ select
+  table_name,
+  index_name,
+  group_concat(column_name order by seq_in_index separator '\n') as column_names,
+  non_unique
+from information_schema.statistics
+where table_schema = 'cs3620' and
+      index_schema = 'cs3620' and
+      index_name <> 'PRIMARY'
+group by
+  table_catalog,
+  table_schema,
+  table_name,
+  index_name,
+  index_type,
+  non_unique;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.001664  Lock_time: 0.001223  Rows_sent: 0  Rows_examined: 2
+# Rows_affected: 0
+SET timestamp=1501114862;
+/* ApplicationName=PhpStorm 2017.2 */ select
+ specific_name,
+ routine_type,
+ routine_definition,
+ routine_comment,
+ dtd_identifier
+from information_schema.routines
+where routine_schema = 'cs3620';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.045482  Lock_time: 0.000532  Rows_sent: 1  Rows_examined: 1
+# Rows_affected: 0
+SET timestamp=1501114862;
+/* ApplicationName=PhpStorm 2017.2 */ select table_name from information_schema.tables
+where table_schema collate utf8_general_ci = 'information_schema' and table_name collate utf8_general_ci = 'parameters';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.003488  Lock_time: 0.002555  Rows_sent: 0  Rows_examined: 9
+# Rows_affected: 0
+SET timestamp=1501114862;
+/* ApplicationName=PhpStorm 2017.2 */ select specific_name,
+parameter_name,
+parameter_mode,
+dtd_identifier
+from information_schema.parameters
+where specific_schema = 'cs3620' and ordinal_position > 0
+order by specific_name, ordinal_position;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.071491  Lock_time: 0.000653  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114862;
+/* ApplicationName=PhpStorm 2017.2 */ select
+  c.constraint_name,
+  c.table_name,
+  c.constraint_type,
+  group_concat(u.column_name order by u.ordinal_position separator '\n' ) as column_names,
+  u.referenced_table_schema,
+  u.referenced_table_name,
+  group_concat(u.referenced_column_name order by u.position_in_unique_constraint separator '\n') as ref_column_names,
+  r.match_option,
+  r.update_rule,
+  r.delete_rule
+from information_schema.table_constraints c
+  left join information_schema.key_column_usage u on
+      u.constraint_schema   = c.constraint_schema
+  and u.constraint_name     = c.constraint_name
+  and u.table_name = c.table_name
+  and u.table_schema = 'cs3620'
+  and ((c.constraint_type = 'UNIQUE' and u.referenced_table_name is null) or c.constraint_type <> 'UNIQUE')
+  left join information_schema.referential_constraints r on
+      r.constraint_schema   = c.constraint_schema
+  and r.constraint_name     = c.constraint_name
+where c.table_schema = 'cs3620'
+  and u.table_schema = 'cs3620'
+group by
+    c.constraint_schema
+  , c.constraint_name
+  , c.table_schema
+  , c.table_name
+  , c.constraint_type
+  , u.referenced_table_schema
+  , u.referenced_table_name
+  , r.match_option
+  , r.update_rule
+  , r.delete_rule
+order by
+    c.table_schema
+  , c.table_name
+  , c.constraint_schema
+  , c.constraint_name;
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.103147  Lock_time: 0.001591  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114862;
+/* ApplicationName=PhpStorm 2017.2 */ select
+trigger_name,
+event_object_table,
+event_manipulation,
+action_timing
+from information_schema.triggers
+where trigger_schema = 'cs3620';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.004271  Lock_time: 0.000837  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114862;
+/* ApplicationName=PhpStorm 2017.2 */ select table_name, view_definition
+from information_schema.views
+where table_schema = 'cs3620';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.001258  Lock_time: 0.001033  Rows_sent: 0  Rows_examined: 2
+# Rows_affected: 0
+SET timestamp=1501114862;
+/* ApplicationName=PhpStorm 2017.2 */ select specific_name, routine_definition
+from information_schema.routines
+where routine_schema = 'cs3620';
+# User@Host: root[root] @  [172.18.0.1]
+# Thread_id: 28  Schema:   QC_hit: No
+# Query_time: 0.101097  Lock_time: 0.000860  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0
+SET timestamp=1501114862;
+/* ApplicationName=PhpStorm 2017.2 */ select
+trigger_name,
+event_object_table,
+action_statement
+from information_schema.triggers
+where trigger_schema = 'cs3620';

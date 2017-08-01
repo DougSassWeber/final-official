@@ -1,0 +1,43 @@
+## Create User Profile
+Create the profile for a specific user account.
+
+`POST /account/userProfile`
+
+### Headers
+- **AuthSessionId** - Identifier for current session
+- **AuthSessionSecret** - Secret for current session
+
+### Parameters
+- **username** - Username for user profile
+- **email** - E-mail address for user profile
+
+### Body
+- **username** - Username for user profile
+- **email** - E-mail address for user profile
+
+### Response
+- **userId** - Identifier for the user
+
+### Errors
+- **ErrorCode1** - Caused by missing identifier
+- **ErrorCode2** - Username was not given
+- **ErrorCode3** - Email was not given
+- **ErrorCode4** - Server exploded
+
+### Example Request
+`GET /account/1692/profile`
+
+```javascript
+{
+	username: "NewUsername",
+	email: "Email@Email.com"
+}
+```
+
+### Example Response
+`200 OK`
+
+```javascript
+{
+	userId: 1692
+}
