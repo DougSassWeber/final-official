@@ -1,0 +1,55 @@
+170809 06:44:41 mysqld_safe Starting mysqld daemon with databases from /data/db/mysql
+2017-08-09  6:44:41 140528766295112 [Note] /usr/bin/mysqld (mysqld 10.1.16-MariaDB) starting as process 199 ...
+2017-08-09  6:44:41 140528766295112 [Warning] Setting lower_case_table_names=2 because file system for /data/db/mysql/ is case insensitive
+2017-08-09 06:44:41 7fcf67321c48 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2017-08-09  6:44:41 140528766295112 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-08-09  6:44:41 140528766295112 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-08-09  6:44:41 140528766295112 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2017-08-09  6:44:41 140528766295112 [Note] InnoDB: Memory barrier is not used
+2017-08-09  6:44:41 140528766295112 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2017-08-09  6:44:41 140528766295112 [Note] InnoDB: Using Linux native AIO
+2017-08-09  6:44:41 140528766295112 [Note] InnoDB: Using SSE crc32 instructions
+2017-08-09  6:44:41 140528766295112 [Note] InnoDB: Initializing buffer pool, size = 800.0M
+2017-08-09  6:44:41 140528766295112 [Note] InnoDB: Completed initialization of buffer pool
+2017-08-09  6:44:42 140528766295112 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-08-09  6:44:42 140528766295112 [Note] InnoDB: The log sequence numbers 1616836 and 1616836 in ibdata files do not match the log sequence number 1616866 in the ib_logfiles!
+2017-08-09  6:44:42 140528766295112 [Note] InnoDB: Database was not shutdown normally!
+2017-08-09  6:44:42 140528766295112 [Note] InnoDB: Starting crash recovery.
+2017-08-09  6:44:42 140528766295112 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-08-09  6:44:42 140528766295112 [Note] InnoDB: Restoring possible half-written data pages 
+2017-08-09  6:44:42 140528766295112 [Note] InnoDB: from the doublewrite buffer...
+2017-08-09  6:44:42 140528766295112 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-08-09  6:44:42 140528766295112 [Note] InnoDB: Waiting for purge to start
+2017-08-09  6:44:42 140528766295112 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.30-76.3 started; log sequence number 1616866
+2017-08-09  6:44:42 140527548820144 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2017-08-09  6:44:42 140528766295112 [Note] Plugin 'FEEDBACK' is disabled.
+2017-08-09  6:44:42 140528766295112 [Note] Recovering after a crash using mysql-bin
+2017-08-09  6:44:42 140528766295112 [Note] Starting crash recovery...
+2017-08-09  6:44:42 140528766295112 [Note] Crash recovery finished.
+2017-08-09  6:44:42 140528766295112 [Note] Server socket created on IP: '0.0.0.0'.
+2017-08-09  6:44:42 140528766295112 [ERROR] mysqld: Table './mysql/user' is marked as crashed and should be repaired
+2017-08-09  6:44:42 140528766295112 [Warning] Checking table:   './mysql/user'
+2017-08-09  6:44:42 140528766295112 [ERROR] mysql.user: 1 client is using or hasn't closed the table properly
+2017-08-09  6:44:42 140528766295112 [Warning] 'user' entry 'root@17986c73b0e8' ignored in --skip-name-resolve mode.
+2017-08-09  6:44:42 140528766295112 [Warning] 'user' entry '@17986c73b0e8' ignored in --skip-name-resolve mode.
+2017-08-09  6:44:42 140528766295112 [Warning] 'proxies_priv' entry '@% root@17986c73b0e8' ignored in --skip-name-resolve mode.
+2017-08-09  6:44:42 140528766295112 [Note] /usr/bin/mysqld: ready for connections.
+Version: '10.1.16-MariaDB'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2017-08-09  6:48:29 140527547845296 [Note] InnoDB: Online DDL : Start
+2017-08-09  6:48:29 140527547845296 [Note] InnoDB: Online DDL : Start reading clustered index of the table and create temporary files
+2017-08-09  6:48:29 140527547845296 [Note] InnoDB: Online DDL : End of reading clustered index of the table and create temporary files
+2017-08-09  6:48:29 140527547845296 [Note] InnoDB: Online DDL : Start applying row log
+2017-08-09  6:48:29 140527547845296 [Note] InnoDB: Online DDL : End of applying row log
+2017-08-09  6:48:29 140527547845296 [Note] InnoDB: Online DDL : Completed
+2017-08-09  6:48:29 140527547845296 [Note] InnoDB: Online DDL : Start
+2017-08-09  6:48:29 140527547845296 [Note] InnoDB: Online DDL : Start reading clustered index of the table and create temporary files
+2017-08-09  6:48:29 140527547845296 [Note] InnoDB: Online DDL : End of reading clustered index of the table and create temporary files
+2017-08-09  6:48:29 140527547845296 [Note] InnoDB: Online DDL : Start applying row log
+2017-08-09  6:48:29 140527547845296 [Note] InnoDB: Online DDL : End of applying row log
+2017-08-09  6:48:29 140527547845296 [Note] InnoDB: Online DDL : Completed
+2017-08-09  6:55:44 140527547845296 [Note] InnoDB: Online DDL : Start
+2017-08-09  6:55:44 140527547845296 [Note] InnoDB: Online DDL : Start reading clustered index of the table and create temporary files
+2017-08-09  6:55:44 140527547845296 [Note] InnoDB: Online DDL : End of reading clustered index of the table and create temporary files
+2017-08-09  6:55:44 140527547845296 [Note] InnoDB: Online DDL : Start applying row log
+2017-08-09  6:55:44 140527547845296 [Note] InnoDB: Online DDL : End of applying row log
+2017-08-09  6:55:44 140527547845296 [Note] InnoDB: Online DDL : Completed

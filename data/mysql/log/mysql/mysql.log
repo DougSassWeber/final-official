@@ -1056,3 +1056,288 @@ where trigger_schema = 'cs3620'
 		   28 Query	/* ApplicationName=PhpStorm 2017.2 */ rollback
 		   28 Query	/* ApplicationName=PhpStorm 2017.2 */ SET autocommit=1
 		   28 Quit	
+/usr/bin/mysqld, Version: 10.1.16-MariaDB (MariaDB Server). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+170809  6:48:28	    3 Connect	root@172.18.0.1 as anonymous on 
+		    3 Query	/* mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 ) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_buffer_length AS net_buffer_length, @@net_write_timeout AS net_write_timeout, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@tx_isolation AS tx_isolation, @@wait_timeout AS wait_timeout
+		    3 Query	SET NAMES utf8
+		    3 Query	SET autocommit=1
+		    3 Query	SET sql_mode='NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES'
+170809  6:48:29	    3 Query	/* ApplicationName=PhpStorm 2017.2 */ use cs3620
+		    3 Query	/* ApplicationName=PhpStorm 2017.2 */ CREATE TABLE CHAT_ROOM
+(
+    chatRoomId INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    chatName VARCHAR(200) NOT NULL,
+    chatCreationDate DATETIME NOT NULL,
+    chatLastActive DATETIME
+)
+		    3 Query	/* ApplicationName=PhpStorm 2017.2 */ CREATE UNIQUE INDEX CHAT_ROOM_chatRoomId_uindex ON CHAT_ROOM (chatRoomId)
+		    3 Query	/* ApplicationName=PhpStorm 2017.2 */ CREATE UNIQUE INDEX CHAT_ROOM_chatName_uindex ON CHAT_ROOM (chatName)
+		    3 Quit	
+		    4 Connect	root@172.18.0.1 as anonymous on 
+		    4 Query	/* mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 ) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_buffer_length AS net_buffer_length, @@net_write_timeout AS net_write_timeout, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@tx_isolation AS tx_isolation, @@wait_timeout AS wait_timeout
+		    4 Query	SET NAMES utf8
+		    4 Query	SET autocommit=1
+		    4 Query	SET sql_mode='NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES'
+		    4 Query	/* ApplicationName=PhpStorm 2017.2 */ SET autocommit=1
+		    4 Query	/* ApplicationName=PhpStorm 2017.2 */ select database(), schema(), left(user(),instr(concat(user(),'@'),'@')-1)
+		    4 Query	/* ApplicationName=PhpStorm 2017.2 */ SET autocommit=0
+		    4 Query	/* ApplicationName=PhpStorm 2017.2 */ select schema_name as name
+from information_schema.schemata
+order by if(schema() = schema_name, 1, 2), schema_name
+		    4 Query	/* ApplicationName=PhpStorm 2017.2 */ commit
+		    4 Query	/* ApplicationName=PhpStorm 2017.2 */ rollback
+		    4 Query	/* ApplicationName=PhpStorm 2017.2 */ SET autocommit=1
+		    4 Query	/* ApplicationName=PhpStorm 2017.2 */ SET autocommit=0
+		    4 Query	/* ApplicationName=PhpStorm 2017.2 */ select table_name, table_type, table_comment
+from information_schema.tables
+where table_schema = 'cs3620'
+170809  6:48:30	    4 Query	/* ApplicationName=PhpStorm 2017.2 */ select
+ordinal_position,
+column_name,
+column_type,
+column_default,
+table_name,
+column_comment,
+is_nullable,
+extra
+from information_schema.columns
+where table_schema = 'cs3620'
+order by table_name, ordinal_position
+		    4 Query	/* ApplicationName=PhpStorm 2017.2 */ select
+  table_name,
+  index_name,
+  group_concat(column_name order by seq_in_index separator '\n') as column_names,
+  non_unique
+from information_schema.statistics
+where table_schema = 'cs3620' and
+      index_schema = 'cs3620' and
+      index_name <> 'PRIMARY'
+group by
+  table_catalog,
+  table_schema,
+  table_name,
+  index_name,
+  index_type,
+  non_unique
+		    4 Query	/* ApplicationName=PhpStorm 2017.2 */ select
+ specific_name,
+ routine_type,
+ routine_definition,
+ routine_comment,
+ dtd_identifier
+from information_schema.routines
+where routine_schema = 'cs3620'
+		    4 Query	/* ApplicationName=PhpStorm 2017.2 */ select table_name from information_schema.tables
+where table_schema collate utf8_general_ci = 'information_schema' and table_name collate utf8_general_ci = 'parameters'
+		    4 Query	/* ApplicationName=PhpStorm 2017.2 */ select specific_name,
+parameter_name,
+parameter_mode,
+dtd_identifier
+from information_schema.parameters
+where specific_schema = 'cs3620' and ordinal_position > 0
+order by specific_name, ordinal_position
+		    4 Query	/* ApplicationName=PhpStorm 2017.2 */ select
+  c.constraint_name,
+  c.table_name,
+  c.constraint_type,
+  group_concat(u.column_name order by u.ordinal_position separator '\n' ) as column_names,
+  u.referenced_table_schema,
+  u.referenced_table_name,
+  group_concat(u.referenced_column_name order by u.position_in_unique_constraint separator '\n') as ref_column_names,
+  r.match_option,
+  r.update_rule,
+  r.delete_rule
+from information_schema.table_constraints c
+  left join information_schema.key_column_usage u on
+      u.constraint_schema   = c.constraint_schema
+  and u.constraint_name     = c.constraint_name
+  and u.table_name = c.table_name
+  and u.table_schema = 'cs3620'
+  and ((c.constraint_type = 'UNIQUE' and u.referenced_table_name is null) or c.constraint_type <> 'UNIQUE')
+  left join information_schema.referential_constraints r on
+      r.constraint_schema   = c.constraint_schema
+  and r.constraint_name     = c.constraint_name
+where c.table_schema = 'cs3620'
+  and u.table_schema = 'cs3620'
+group by
+    c.constraint_schema
+  , c.constraint_name
+  , c.table_schema
+  , c.table_name
+  , c.constraint_type
+  , u.referenced_table_schema
+  , u.referenced_table_name
+  , r.match_option
+  , r.update_rule
+  , r.delete_rule
+order by
+    c.table_schema
+  , c.table_name
+  , c.constraint_schema
+  , c.constraint_name
+		    4 Query	/* ApplicationName=PhpStorm 2017.2 */ select
+trigger_name,
+event_object_table,
+event_manipulation,
+action_timing
+from information_schema.triggers
+where trigger_schema = 'cs3620'
+		    4 Query	/* ApplicationName=PhpStorm 2017.2 */ select table_name, view_definition
+from information_schema.views
+where table_schema = 'cs3620'
+		    4 Query	/* ApplicationName=PhpStorm 2017.2 */ select specific_name, routine_definition
+from information_schema.routines
+where routine_schema = 'cs3620'
+		    4 Query	/* ApplicationName=PhpStorm 2017.2 */ select
+trigger_name,
+event_object_table,
+action_statement
+from information_schema.triggers
+where trigger_schema = 'cs3620'
+		    4 Query	/* ApplicationName=PhpStorm 2017.2 */ commit
+		    4 Query	/* ApplicationName=PhpStorm 2017.2 */ rollback
+		    4 Query	/* ApplicationName=PhpStorm 2017.2 */ SET autocommit=1
+		    4 Quit	
+170809  6:55:44	    5 Connect	root@172.18.0.1 as anonymous on 
+		    5 Query	/* mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 ) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_buffer_length AS net_buffer_length, @@net_write_timeout AS net_write_timeout, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@tx_isolation AS tx_isolation, @@wait_timeout AS wait_timeout
+		    5 Query	SET NAMES utf8
+		    5 Query	SET autocommit=1
+		    5 Query	SET sql_mode='NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES'
+		    5 Query	/* ApplicationName=PhpStorm 2017.2 */ use cs3620
+		    5 Query	/* ApplicationName=PhpStorm 2017.2 */ CREATE TABLE Message
+(
+    ID INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    chatRoomId INT NOT NULL,
+    userId INT NOT NULL,
+    messageContent VARCHAR(1000) NOT NULL,
+    messageSent DATETIME NOT NULL
+)
+		    5 Query	/* ApplicationName=PhpStorm 2017.2 */ CREATE UNIQUE INDEX Message_ID_uindex ON Message (ID)
+		    5 Quit	
+		    6 Connect	root@172.18.0.1 as anonymous on 
+		    6 Query	/* mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 ) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_buffer_length AS net_buffer_length, @@net_write_timeout AS net_write_timeout, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@tx_isolation AS tx_isolation, @@wait_timeout AS wait_timeout
+		    6 Query	SET NAMES utf8
+		    6 Query	SET autocommit=1
+		    6 Query	SET sql_mode='NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES'
+		    6 Query	/* ApplicationName=PhpStorm 2017.2 */ SET autocommit=1
+		    6 Query	/* ApplicationName=PhpStorm 2017.2 */ select database(), schema(), left(user(),instr(concat(user(),'@'),'@')-1)
+		    6 Query	/* ApplicationName=PhpStorm 2017.2 */ SET autocommit=0
+		    6 Query	/* ApplicationName=PhpStorm 2017.2 */ select schema_name as name
+from information_schema.schemata
+order by if(schema() = schema_name, 1, 2), schema_name
+		    6 Query	/* ApplicationName=PhpStorm 2017.2 */ commit
+		    6 Query	/* ApplicationName=PhpStorm 2017.2 */ rollback
+		    6 Query	/* ApplicationName=PhpStorm 2017.2 */ SET autocommit=1
+		    6 Query	/* ApplicationName=PhpStorm 2017.2 */ SET autocommit=0
+		    6 Query	/* ApplicationName=PhpStorm 2017.2 */ select table_name, table_type, table_comment
+from information_schema.tables
+where table_schema = 'cs3620'
+		    6 Query	/* ApplicationName=PhpStorm 2017.2 */ select
+ordinal_position,
+column_name,
+column_type,
+column_default,
+table_name,
+column_comment,
+is_nullable,
+extra
+from information_schema.columns
+where table_schema = 'cs3620'
+order by table_name, ordinal_position
+		    6 Query	/* ApplicationName=PhpStorm 2017.2 */ select
+  table_name,
+  index_name,
+  group_concat(column_name order by seq_in_index separator '\n') as column_names,
+  non_unique
+from information_schema.statistics
+where table_schema = 'cs3620' and
+      index_schema = 'cs3620' and
+      index_name <> 'PRIMARY'
+group by
+  table_catalog,
+  table_schema,
+  table_name,
+  index_name,
+  index_type,
+  non_unique
+		    6 Query	/* ApplicationName=PhpStorm 2017.2 */ select
+ specific_name,
+ routine_type,
+ routine_definition,
+ routine_comment,
+ dtd_identifier
+from information_schema.routines
+where routine_schema = 'cs3620'
+		    6 Query	/* ApplicationName=PhpStorm 2017.2 */ select table_name from information_schema.tables
+where table_schema collate utf8_general_ci = 'information_schema' and table_name collate utf8_general_ci = 'parameters'
+		    6 Query	/* ApplicationName=PhpStorm 2017.2 */ select specific_name,
+parameter_name,
+parameter_mode,
+dtd_identifier
+from information_schema.parameters
+where specific_schema = 'cs3620' and ordinal_position > 0
+order by specific_name, ordinal_position
+		    6 Query	/* ApplicationName=PhpStorm 2017.2 */ select
+  c.constraint_name,
+  c.table_name,
+  c.constraint_type,
+  group_concat(u.column_name order by u.ordinal_position separator '\n' ) as column_names,
+  u.referenced_table_schema,
+  u.referenced_table_name,
+  group_concat(u.referenced_column_name order by u.position_in_unique_constraint separator '\n') as ref_column_names,
+  r.match_option,
+  r.update_rule,
+  r.delete_rule
+from information_schema.table_constraints c
+  left join information_schema.key_column_usage u on
+      u.constraint_schema   = c.constraint_schema
+  and u.constraint_name     = c.constraint_name
+  and u.table_name = c.table_name
+  and u.table_schema = 'cs3620'
+  and ((c.constraint_type = 'UNIQUE' and u.referenced_table_name is null) or c.constraint_type <> 'UNIQUE')
+  left join information_schema.referential_constraints r on
+      r.constraint_schema   = c.constraint_schema
+  and r.constraint_name     = c.constraint_name
+where c.table_schema = 'cs3620'
+  and u.table_schema = 'cs3620'
+group by
+    c.constraint_schema
+  , c.constraint_name
+  , c.table_schema
+  , c.table_name
+  , c.constraint_type
+  , u.referenced_table_schema
+  , u.referenced_table_name
+  , r.match_option
+  , r.update_rule
+  , r.delete_rule
+order by
+    c.table_schema
+  , c.table_name
+  , c.constraint_schema
+  , c.constraint_name
+		    6 Query	/* ApplicationName=PhpStorm 2017.2 */ select
+trigger_name,
+event_object_table,
+event_manipulation,
+action_timing
+from information_schema.triggers
+where trigger_schema = 'cs3620'
+		    6 Query	/* ApplicationName=PhpStorm 2017.2 */ select table_name, view_definition
+from information_schema.views
+where table_schema = 'cs3620'
+		    6 Query	/* ApplicationName=PhpStorm 2017.2 */ select specific_name, routine_definition
+from information_schema.routines
+where routine_schema = 'cs3620'
+		    6 Query	/* ApplicationName=PhpStorm 2017.2 */ select
+trigger_name,
+event_object_table,
+action_statement
+from information_schema.triggers
+where trigger_schema = 'cs3620'
+		    6 Query	/* ApplicationName=PhpStorm 2017.2 */ commit
+		    6 Query	/* ApplicationName=PhpStorm 2017.2 */ rollback
+		    6 Query	/* ApplicationName=PhpStorm 2017.2 */ SET autocommit=1
+		    6 Quit	
