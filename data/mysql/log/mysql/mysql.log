@@ -2886,3 +2886,6 @@ where trigger_schema = 'cs3620'
 		   14 Query	/* ApplicationName=PhpStorm 2017.2 */ rollback
 		   14 Query	/* ApplicationName=PhpStorm 2017.2 */ SET autocommit=1
 		   14 Quit	
+/usr/bin/mysqld, Version: 10.1.16-MariaDB (MariaDB Server). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument

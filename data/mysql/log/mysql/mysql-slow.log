@@ -3981,3 +3981,6 @@ event_object_table,
 action_statement
 from information_schema.triggers
 where trigger_schema = 'cs3620';
+/usr/bin/mysqld, Version: 10.1.16-MariaDB (MariaDB Server). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
