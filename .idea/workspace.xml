@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8a2a9ae-24e0-441f-abbb-a1a5840da5d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/settings.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/CREATE_CHATROOM.md" afterPath="$PROJECT_DIR$/docs/CREATE_CHATROOM.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/CREATE_USER" afterPath="$PROJECT_DIR$/docs/CREATE_USER" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/LIST_CHATROOMS.md" afterPath="$PROJECT_DIR$/docs/LIST_CHATROOMS.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/SEND_MESSAGE.md" afterPath="$PROJECT_DIR$/docs/SEND_MESSAGE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/USER_ENTERS_CHATROOM.md" afterPath="$PROJECT_DIR$/docs/USER_ENTERS_CHATROOM.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/USER_LEAVES_CHATROOM.md" afterPath="$PROJECT_DIR$/docs/USER_LEAVES_CHATROOM.md" />
-    </list>
+    <list default="true" id="c8a2a9ae-24e0-441f-abbb-a1a5840da5d7" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,18 +30,6 @@
         <item name="" type="eadb38e5:DatabaseStructure$Root" />
         <item name="@localhost" type="e3449647:DbNodeDescriptor" />
         <item name="cs3620" type="e3449647:DbNodeDescriptor" />
-      </path>
-      <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="@localhost" type="e3449647:DbNodeDescriptor" />
-        <item name="cs3620" type="e3449647:DbNodeDescriptor" />
-        <item name="CHAT_ROOM" type="e3449647:DbNodeDescriptor" />
-      </path>
-      <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="@localhost" type="e3449647:DbNodeDescriptor" />
-        <item name="cs3620" type="e3449647:DbNodeDescriptor" />
-        <item name="Message" type="e3449647:DbNodeDescriptor" />
       </path>
       <path>
         <item name="" type="eadb38e5:DatabaseStructure$Root" />
@@ -279,12 +257,12 @@
       <workItem from="1501561406159" duration="4469000" />
       <workItem from="1501650047935" duration="1834000" />
       <workItem from="1502241197730" duration="4677000" />
-      <workItem from="1502322361338" duration="25770000" />
+      <workItem from="1502322361338" duration="25980000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41699000" />
+    <option name="totallyTimeSpent" value="41909000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -298,11 +276,11 @@
   <component name="ToolWindowManager">
     <frame x="-1920" y="-43" width="1920" height="1057" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23322684" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23322684" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3869116" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09873708" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15654951" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15654951" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32800853" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
