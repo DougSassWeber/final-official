@@ -99,3 +99,21 @@ Version: '10.1.16-MariaDB'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  M
 2017-08-16  3:48:44 140654939454536 [Warning] 'proxies_priv' entry '@% root@17986c73b0e8' ignored in --skip-name-resolve mode.
 2017-08-16  3:48:44 140654939454536 [Note] /usr/bin/mysqld: ready for connections.
 Version: '10.1.16-MariaDB'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2017-08-17  1:15:52 140653721004720 [Note] InnoDB: Online DDL : Start
+2017-08-17  1:15:52 140653721004720 [Note] InnoDB: Online DDL : Start reading clustered index of the table and create temporary files
+2017-08-17  1:15:52 140653721004720 [Note] InnoDB: Online DDL : End of reading clustered index of the table and create temporary files
+2017-08-17  1:15:52 140653721004720 [Note] InnoDB: Online DDL : Start applying row log
+2017-08-17  1:15:52 140653721004720 [Note] InnoDB: Online DDL : End of applying row log
+2017-08-17  1:15:52 140653721004720 [Note] InnoDB: Online DDL : Completed
+2017-08-17  1:15:52 140653721004720 [Note] InnoDB: Online DDL : Start
+2017-08-17  1:15:52 140653721004720 [Note] InnoDB: Online DDL : Start reading clustered index of the table and create temporary files
+2017-08-17  1:15:52 140653721004720 [Note] InnoDB: Online DDL : End of reading clustered index of the table and create temporary files
+2017-08-17  1:15:52 140653721004720 [Note] InnoDB: Online DDL : Start applying row log
+2017-08-17  1:15:52 140653721004720 [Note] InnoDB: Online DDL : End of applying row log
+2017-08-17  1:15:52 140653721004720 [Note] InnoDB: Online DDL : Completed
+2017-08-17  1:15:52 140653721004720 [Note] InnoDB: Online DDL : Start
+2017-08-17  1:15:52 140653721004720 [Note] InnoDB: Online DDL : Start reading clustered index of the table and create temporary files
+2017-08-17  1:15:52 140653721004720 [Note] InnoDB: Online DDL : End of reading clustered index of the table and create temporary files
+2017-08-17  1:15:52 140653721004720 [Note] InnoDB: Online DDL : Start applying row log
+2017-08-17  1:15:52 140653721004720 [Note] InnoDB: Online DDL : End of applying row log
+2017-08-17  1:15:52 140653721004720 [Note] InnoDB: Online DDL : Completed
