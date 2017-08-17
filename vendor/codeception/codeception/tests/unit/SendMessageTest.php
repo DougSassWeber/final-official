@@ -11,9 +11,7 @@ class SendMessageTest extends \Codeception\Test\Unit
     protected function _before()
     {
         $actual = new \Storage\PluginMem();
-        $user = new \Domain\User();
-        $user->SetAlias("Test");
-        $user->SetEmail("Test@test.com");
+        $user = new \Domain\USER("Test","Test@test.com");
         $chat = new \Domain\ChatRoom("Test");
         $actual->Create($user);
         $actualUser = $actual->Read(0);

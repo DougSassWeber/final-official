@@ -21,9 +21,7 @@ class UserTest extends \Codeception\Test\Unit
     {
         // arrange
         $actual = new \Storage\PluginMem();
-        $user = new \Domain\User();
-        $user->SetAlias("Test");
-        $user->SetEmail("Test@test.com");
+        $user = new \Domain\USER("Test","Test@test.com");
 
         // act
         $actual->Create($user);
@@ -39,12 +37,8 @@ class UserTest extends \Codeception\Test\Unit
     {
         // arrange
         $actual = new \Storage\PluginMem();
-        $user1 = new \Domain\User();
-        $user1->SetAlias("Test");
-        $user1->SetEmail("Test@test.com");
-        $user2 = new \Domain\User();
-        $user2->SetAlias("Test");
-        $user2->SetEmail("Test@test.com");
+        $user1 = new \Domain\USER("Test","Test@test.com");
+        $user2 = new \Domain\USER("Test","Test@test.com");
 
         // act
         $actual->Create($user1);
