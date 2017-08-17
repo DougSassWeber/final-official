@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8a2a9ae-24e0-441f-abbb-a1a5840da5d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Domain/ChatRoom.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/routes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Domain/Message.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Domain/USER.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Domain/USER_IN_ROOM.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Storage/Mysql.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Storage/PluginMem.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Storage/StorageInterface.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Domain/ChatRoom.php" afterPath="$PROJECT_DIR$/src/Domain/ChatRoom.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/CreateChatRoomTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/CreateChatRoomTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/SendMessageTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/SendMessageTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/UserSignInTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/UserSignInTest.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,43 +72,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CreateChatRoomTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/CreateChatRoomTest.php">
+      <file leaf-file-name="USER.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Domain/USER.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="34" selection-end-column="54" />
+            <state relative-caret-position="342">
+              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChatRoom.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Domain/ChatRoom.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="23" column="53" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1845">
-              <caret line="123" column="0" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-              <folding>
-                <element signature="e#6#230#0#PHP" expanded="true" />
-                <marker date="1502940633000" expanded="true" signature="321:361" ph="SELECT * FRO... tasks" />
-                <marker date="1502940633000" expanded="true" signature="581:641" ph="SELECT * FRO... CHAT_ROOM" />
-                <marker date="1502940633000" expanded="true" signature="943:1081" ph="INSERT INTO CHAT_ROOM... " />
-                <marker date="1502940633000" expanded="true" signature="1838:1968" ph="INSERT INTO Message... " />
-                <marker date="1502940633000" expanded="true" signature="2715:2770" ph="INSERT INTO USER... " />
-                <marker date="1502940633000" expanded="true" signature="3392:3484" ph="UPDATE CHAT_... " />
-                <marker date="1502940633000" expanded="true" signature="3398:3413" ph="INSERT INTO USER... " />
-                <marker date="1502940633000" expanded="true" signature="4136:4194" ph="UPDATE CHAT_... " />
-                <marker date="1502940633000" expanded="true" signature="4136:4210" ph="UPDATE CHAT_... " />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -122,11 +99,17 @@
         <option value="$PROJECT_DIR$/docs/SEND_MESSAGE.md" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/UserTest.php" />
+        <option value="$PROJECT_DIR$/src/routes.php" />
+        <option value="$PROJECT_DIR$/src/Storage/Mysql.php" />
         <option value="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/CreateChatRoomTest.php" />
         <option value="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/SendMessageTest.php" />
-        <option value="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/UserSignInTest.php" />
+        <option value="$PROJECT_DIR$/src/Storage/PluginMem.php" />
+        <option value="$PROJECT_DIR$/src/Storage/StorageInterface.php" />
+        <option value="$PROJECT_DIR$/src/Domain/Message.php" />
         <option value="$PROJECT_DIR$/src/Domain/ChatRoom.php" />
-        <option value="$PROJECT_DIR$/src/routes.php" />
+        <option value="$PROJECT_DIR$/src/Domain/USER_IN_ROOM.php" />
+        <option value="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/UserSignInTest.php" />
+        <option value="$PROJECT_DIR$/src/Domain/USER.php" />
       </list>
     </option>
   </component>
@@ -218,6 +201,53 @@
               <item name="final-official" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="final-official" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final-official" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Domain" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="final-official" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final-official" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Storage" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="final-official" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final-official" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="final-official" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final-official" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="codeception" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="final-official" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final-official" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="codeception" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="codeception" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="final-official" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final-official" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="codeception" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="codeception" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="final-official" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final-official" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="codeception" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="codeception" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="unit" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -249,7 +279,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Bash.start-webapp.sh">
+  <component name="RunManager" selected="Bash.stop-webapp.sh">
     <configuration name="start-webapp.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="/bin/sh" />
@@ -276,13 +306,16 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Bash.start-webapp.sh" />
-        <item index="1" class="java.lang.String" itemvalue="Bash.stop-webapp.sh" />
+        <item index="0" class="java.lang.String" itemvalue="Bash.stop-webapp.sh" />
+        <item index="1" class="java.lang.String" itemvalue="Bash.start-webapp.sh" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -298,12 +331,12 @@
       <workItem from="1501561406159" duration="4469000" />
       <workItem from="1501650047935" duration="1834000" />
       <workItem from="1502241197730" duration="4677000" />
-      <workItem from="1502322361338" duration="19239000" />
+      <workItem from="1502322361338" duration="22880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35168000" />
+    <option name="totallyTimeSpent" value="38809000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -316,15 +349,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-43" width="1920" height="1057" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23344104" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23322684" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3869116" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09873708" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15654951" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32800853" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21512248" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -620,14 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/UserSignInTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="59" column="14" lean-forward="false" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/UserTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
@@ -636,34 +660,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/SendMessageTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="47" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/CreateChatRoomTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="34" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/ChatRoom.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="23" column="53" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1845">
-          <caret line="123" column="0" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+        <state relative-caret-position="1680">
+          <caret line="112" column="5" lean-forward="true" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
           <folding>
             <element signature="e#6#230#0#PHP" expanded="true" />
             <marker date="1502940633000" expanded="true" signature="321:361" ph="SELECT * FRO... tasks" />
@@ -676,6 +676,86 @@
             <marker date="1502940633000" expanded="true" signature="4136:4194" ph="UPDATE CHAT_... " />
             <marker date="1502940633000" expanded="true" signature="4136:4210" ph="UPDATE CHAT_... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Storage/Mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/CreateChatRoomTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="49" lean-forward="true" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Storage/PluginMem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Storage/StorageInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/ChatRoom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="66" column="20" lean-forward="false" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/SendMessageTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/USER_IN_ROOM.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/UserSignInTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/USER.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -21,9 +21,7 @@ class CreateChatRoomTest extends \Codeception\Test\Unit
     {
         // arrange
         $actual = new \Storage\PluginMem();
-        $chat = new \Domain\ChatRoom();
-        $chat->SetChatName("Test");
-        $chat->SetActive(1);
+        $chat = new \Domain\ChatRoom("Test");
 
         // act
         $actual->Create($chat);
@@ -39,12 +37,8 @@ class CreateChatRoomTest extends \Codeception\Test\Unit
     {
         // arrange
         $actual = new \Storage\PluginMem();
-        $chat1 = new \Domain\ChatRoom();
-        $chat1->SetChatName("Test");
-        $chat1->SetActive(1);
-        $chat2 = new \Domain\ChatRoom();
-        $chat2->SetChatName("Test");
-        $chat2->SetActive(1);
+        $chat1 = new \Domain\ChatRoom("Test");
+        $chat2 = new \Domain\ChatRoom("Test");
 
         // act
         $actual->Create($chat1);
@@ -54,6 +48,5 @@ class CreateChatRoomTest extends \Codeception\Test\Unit
         //assert
         $this->assertEquals(1, $actual->Count());
         $this->assertEquals("Test", $actualChat->ChatName());
-        $this->assertEqulas(1, $actualChat->Active());
     }
 }

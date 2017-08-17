@@ -32,7 +32,7 @@ class ChatRoom {
     /**
      * @return mixed
      */
-    public function getChatRoomId()
+    public function ChatRoomId()
     {
         return $this->chatRoomId;
     }
@@ -40,7 +40,7 @@ class ChatRoom {
     /**
      * @return mixed
      */
-    public function getChatName()
+    public function ChatName()
     {
         return $this->chatName;
     }
@@ -48,7 +48,7 @@ class ChatRoom {
     /**
      * @return mixed
      */
-    public function getChatCreationDate()
+    public function ChatCreationDate()
     {
         return $this->chatCreationDate;
     }
@@ -56,7 +56,7 @@ class ChatRoom {
     /**
      * @return mixed
      */
-    public function getChatLastActive()
+    public function ChatLastActive()
     {
         return $this->chatLastActive;
     }
@@ -64,43 +64,9 @@ class ChatRoom {
     /**
      * @return mixed
      */
-    public function getActive()
+    public function Active()
     {
         return $this->active;
-    }
-
-    /**
-     * @param mixed $chatRoomId
-     */
-    public function setChatRoomId($chatRoomId)
-    {
-        // validation
-        if ( !is_string($chatRoomId) ) {
-            return false;
-        }
-        $this->chatRoomId = $chatRoomId;
-        return true;
-    }
-
-    /**
-     * @param mixed $chatName
-     */
-    public function setChatName($chatName)
-    {
-        // validation
-        if ( !is_string($chatName) ) {
-            return false;
-        }
-        $this->chatName = $chatName;
-        return true;
-    }
-
-    /**
-     * @param mixed $chatCreationDate
-     */
-    public function setChatCreationDate($chatCreationDate)
-    {
-        $this->chatCreationDate = $chatCreationDate;
     }
 
     /**

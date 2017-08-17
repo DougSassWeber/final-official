@@ -14,9 +14,7 @@ class SendMessageTest extends \Codeception\Test\Unit
         $user = new \Domain\User();
         $user->SetAlias("Test");
         $user->SetEmail("Test@test.com");
-        $chat = new \Domain\ChatRoom();
-        $chat->SetChatName("Test");
-        $chat->SetActive(1);
+        $chat = new \Domain\ChatRoom("Test");
         $actual->Create($user);
         $actualUser = $actual->Read(0);
         $actual->Create($chat);
@@ -32,10 +30,7 @@ class SendMessageTest extends \Codeception\Test\Unit
     {
         // arrange
         $actual = new \Storage\PluginMem();
-        $message = new \Domain\Message();
-        $message->SetMessageContent("Test");
-        $message->SetChatRoomId($actualChat->ChatRoomId());
-        $message->SetUserId($actualUser->UserId());
+        $message = new \Domain\Message("Test",$actualUser->UserId(),$actualChat->ChatRoomId());
 
         // act
         $actual->Create($message);
@@ -52,10 +47,7 @@ class SendMessageTest extends \Codeception\Test\Unit
     {
         // arrange
         $actual = new \Storage\PluginMem();
-        $message = new \Domain\Message();
-        $message->SetMessageContent("");
-        $message->SetChatRoomId($actualChat->ChatRoomId());
-        $message->SetUserId($actualUser->UserId());
+        $message = new \Domain\Message("",$actualUser->UserId(),$actualChat->ChatRoomId());
 
         // act
         $actual->Create($message);
