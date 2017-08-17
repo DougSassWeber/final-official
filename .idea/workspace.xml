@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8a2a9ae-24e0-441f-abbb-a1a5840da5d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dependencies.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/settings.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/SendMessageTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/SendMessageTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/UserTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/UserTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/CREATE_CHATROOM.md" afterPath="$PROJECT_DIR$/docs/CREATE_CHATROOM.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/CREATE_USER" afterPath="$PROJECT_DIR$/docs/CREATE_USER" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/LIST_CHATROOMS.md" afterPath="$PROJECT_DIR$/docs/LIST_CHATROOMS.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/SEND_MESSAGE.md" afterPath="$PROJECT_DIR$/docs/SEND_MESSAGE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/USER_ENTERS_CHATROOM.md" afterPath="$PROJECT_DIR$/docs/USER_ENTERS_CHATROOM.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/USER_LEAVES_CHATROOM.md" afterPath="$PROJECT_DIR$/docs/USER_LEAVES_CHATROOM.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,12 +78,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/CREATE_USER" />
-        <option value="$PROJECT_DIR$/docs/CREATE_CHATROOM.md" />
-        <option value="$PROJECT_DIR$/docs/CREATE_USER" />
-        <option value="$PROJECT_DIR$/docs/LIST_CHATROOMS.md" />
-        <option value="$PROJECT_DIR$/docs/USER_ENTERS_CHATROOM.md" />
-        <option value="$PROJECT_DIR$/docs/USER_LEAVES_CHATROOM.md" />
-        <option value="$PROJECT_DIR$/docs/SEND_MESSAGE.md" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/routes.php" />
         <option value="$PROJECT_DIR$/src/Storage/Mysql.php" />
@@ -93,6 +92,14 @@
         <option value="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/UserSignInTest.php" />
         <option value="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/SendMessageTest.php" />
         <option value="$PROJECT_DIR$/src/dependencies.php" />
+        <option value="$PROJECT_DIR$/src/settings.php" />
+        <option value="$PROJECT_DIR$/src/public/index.php" />
+        <option value="$PROJECT_DIR$/docs/CREATE_CHATROOM.md" />
+        <option value="$PROJECT_DIR$/docs/CREATE_USER" />
+        <option value="$PROJECT_DIR$/docs/SEND_MESSAGE.md" />
+        <option value="$PROJECT_DIR$/docs/USER_ENTERS_CHATROOM.md" />
+        <option value="$PROJECT_DIR$/docs/USER_LEAVES_CHATROOM.md" />
+        <option value="$PROJECT_DIR$/docs/LIST_CHATROOMS.md" />
       </list>
     </option>
   </component>
@@ -182,42 +189,12 @@
             <path>
               <item name="final-official" type="b2602c69:ProjectViewProjectNode" />
               <item name="final-official" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="docs" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="final-official" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final-official" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="final-official" type="b2602c69:ProjectViewProjectNode" />
-              <item name="final-official" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="final-official" type="b2602c69:ProjectViewProjectNode" />
-              <item name="final-official" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="codeception" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="final-official" type="b2602c69:ProjectViewProjectNode" />
-              <item name="final-official" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="codeception" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="codeception" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="final-official" type="b2602c69:ProjectViewProjectNode" />
-              <item name="final-official" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="codeception" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="codeception" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="final-official" type="b2602c69:ProjectViewProjectNode" />
-              <item name="final-official" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="codeception" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="codeception" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="unit" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -302,12 +279,12 @@
       <workItem from="1501561406159" duration="4469000" />
       <workItem from="1501650047935" duration="1834000" />
       <workItem from="1502241197730" duration="4677000" />
-      <workItem from="1502322361338" duration="24297000" />
+      <workItem from="1502322361338" duration="25770000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40226000" />
+    <option name="totallyTimeSpent" value="41699000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -359,7 +336,8 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1501652557000" expanded="true" signature="804:847" ph="{...}" />
+              <marker date="1502946932000" expanded="true" signature="880:980" ph="{...}" />
+              <marker date="1502946932000" expanded="true" signature="1031:1048" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
@@ -372,7 +350,8 @@
           <first_editor relative-caret-position="75">
             <caret line="5" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="1" />
             <folding>
-              <marker date="1501566836000" expanded="true" signature="716:771" ph="{...}" />
+              <marker date="1502946640000" expanded="true" signature="684:736" ph="{...}" />
+              <marker date="1502946640000" expanded="true" signature="787:804" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
@@ -486,62 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/LIST_CHATROOMS.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/USER_ENTERS_CHATROOM.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/USER_LEAVES_CHATROOM.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/SEND_MESSAGE.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="611">
-            <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-            <folding>
-              <marker date="1501652557000" expanded="true" signature="804:847" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/CREATE_USER">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="1" />
-            <folding>
-              <marker date="1501566836000" expanded="true" signature="716:771" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/mysql/conf/my.cnf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -569,17 +492,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/CREATE_CHATROOM.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="240">
-            <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -719,10 +631,113 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#186#242#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/USER_ENTERS_CHATROOM.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="38" />
+            <folding>
+              <marker date="1502947223000" expanded="true" signature="727:777" ph="{...}" />
+              <marker date="1502947223000" expanded="true" signature="828:844" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/USER_LEAVES_CHATROOM.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="548">
+            <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+            <folding>
+              <marker date="1502947332000" expanded="true" signature="727:777" ph="{...}" />
+              <marker date="1502947332000" expanded="true" signature="828:844" ph="{...}" />
+              <marker date="1502947332000" expanded="true" signature="842:844" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/LIST_CHATROOMS.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="375">
+            <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <folding>
+              <marker date="1502947332000" expanded="true" signature="503:517" ph="{...}" />
+              <marker date="1502947332000" expanded="true" signature="568:615" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/SEND_MESSAGE.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="653">
+            <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+            <folding>
+              <marker date="1502946932000" expanded="true" signature="880:980" ph="{...}" />
+              <marker date="1502946932000" expanded="true" signature="1031:1048" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/CREATE_USER">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="420">
+            <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <folding>
+              <marker date="1502946640000" expanded="true" signature="684:736" ph="{...}" />
+              <marker date="1502946640000" expanded="true" signature="787:804" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/CREATE_CHATROOM.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="240">
+            <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <folding>
+              <marker date="1502946483000" expanded="true" signature="627:655" ph="{...}" />
+              <marker date="1502946483000" expanded="true" signature="706:723" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-797">
-          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        <state relative-caret-position="-512">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <element signature="e#6#230#0#PHP" expanded="true" />
             <marker date="1502940633000" expanded="true" signature="321:361" ph="SELECT * FRO... tasks" />

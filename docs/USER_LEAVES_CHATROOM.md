@@ -1,7 +1,7 @@
 ## User Leaves Chat Room
 Create the profile for a specific user account.
 
-`POST /account/{userId}/{chatId}`
+`POST /USER_IN_ROOM/{userId}/{chatId}`
 
 ### Headers
 - **AuthSessionId** - Identifier for current session
@@ -13,9 +13,10 @@ Create the profile for a specific user account.
 ### Body
 - **chatId** - ChatID for the chat room
 - **userId** - UserID entering the chat room
+- **loggedIn** - States whether user was logged in to chat
 
 ### Response
-- **chatId** - Identifier for the chat room
+- **loggedIn** - States whether user was logged in to chat
 
 ### Errors
 - **ErrorCode1** - Caused by missing identifier
@@ -24,12 +25,13 @@ Create the profile for a specific user account.
 - **ErrorCode4** - Server exploded
 
 ### Example Request
-`GET /account/1234/chatInfo`
+`GET /USER_IN_ROOM/0123/4567`
 
 ```javascript
 {
 	chatId: "4567",
-	userId: "0123"
+	userId: "0123",
+	loggedIn: 0
 }
 ```
 
@@ -38,5 +40,5 @@ Create the profile for a specific user account.
 
 ```javascript
 {
-	chatId: 1234
+	loggedIn: 0
 }

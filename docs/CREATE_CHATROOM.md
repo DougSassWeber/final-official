@@ -1,7 +1,7 @@
 ## Create Chat Room
 Create the profile for a specific user account.
 
-`POST /account/chatRoom`
+`POST /CHAT_ROOM`
 
 ### Headers
 - **AuthSessionId** - Identifier for current session
@@ -24,12 +24,11 @@ Create the profile for a specific user account.
 - **ErrorCode4** - Server exploded
 
 ### Example Request
-`GET /account/1234/chatInfo`
+`GET /CHAT_ROOM/1234`
 
 ```javascript
 {
-	chatname: "NewChatroom",
-	userID: "0123"
+	chatName: "NewChatroom"
 }
 ```
 

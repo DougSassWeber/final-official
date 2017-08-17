@@ -1,14 +1,14 @@
 ## List all Chat Rooms
 Create the profile for a specific user account.
 
-`GET /account/chatRoom`
+`GET /CHAT_ROOM`
 
 ### Headers
 - **AuthSessionId** - Identifier for current session
 - **AuthSessionSecret** - Secret for current session
 
 ### Parameters
-- **none**
+- **none** - 
 
 ### Body
 - **none**
@@ -22,12 +22,11 @@ Create the profile for a specific user account.
 - **ErrorCode3** - Server exploded
 
 ### Example Request
-`GET /account/chatRoom`
+`GET /CHAT_ROOM`
 
 ```javascript
 {
-	chatname: "NewChatroom",
-	userID: "0123"
+	active: 1
 }
 ```
 

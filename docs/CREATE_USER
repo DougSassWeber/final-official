@@ -1,18 +1,18 @@
 ## Create User Profile
 Create the profile for a specific user account.
 
-`POST /account/userProfile`
+`POST /USER`
 
 ### Headers
 - **AuthSessionId** - Identifier for current session
 - **AuthSessionSecret** - Secret for current session
 
 ### Parameters
-- **username** - Username for user profile
+- **alias** - Username for user profile
 - **email** - E-mail address for user profile
 
 ### Body
-- **username** - Username for user profile
+- **alias** - Username for user profile
 - **email** - E-mail address for user profile
 
 ### Response
@@ -25,11 +25,11 @@ Create the profile for a specific user account.
 - **ErrorCode4** - Server exploded
 
 ### Example Request
-`GET /account/1692/profile`
+`GET /USER/1692`
 
 ```javascript
 {
-	username: "NewUsername",
+	alias: "NewUsername",
 	email: "Email@Email.com"
 }
 ```
