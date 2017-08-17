@@ -11,12 +11,7 @@ class UserSignInTest extends \Codeception\Test\Unit
     protected function _before()
     {
         $actual = new \Storage\PluginMem();
-        $user = new \Domain\User();
-        $user->SetAlias("Test");
-        $user->SetEmail("Test@test.com");
-        $chat = new \Domain\ChatRoom();
-        $chat->SetChatName("Test");
-        $chat->SetActive(1);
+        $user = new \Domain\USER("Test","Test@test.com");
         $actual->Create($user);
         $actualUser = $actual->Read(0);
         $actual->Create($chat);
@@ -30,7 +25,7 @@ class UserSignInTest extends \Codeception\Test\Unit
     // tests
     public function testLogInRoom()
     {
-        $signIn = new \Domain\UserSignIn();
+        $signIn = new \Domain\USER_IN_ROOM();
         $signIn->SetChatRoomId($actualChat->ChatRoomId());
         $signIn->SetUserId($actualUser->UserId());
         $signIn->SetLoggedIn(1);
@@ -48,11 +43,11 @@ class UserSignInTest extends \Codeception\Test\Unit
 
     public function testDuplicateLogInRoom()
     {
-        $signIn1 = new \Domain\UserSignIn();
+        $signIn1 = new \Domain\USER_IN_ROOM();
         $signIn1->SetChatRoomId($actualChat->ChatRoomId());
         $signIn1->SetUserId($actualUser->UserId());
         $signIn1->SetLoggedIn(1);
-        $signIn2 = new \Domain\UserSignIn();
+        $signIn2 = new \Domain\USER_IN_ROOM();
         $signIn2->SetChatRoomId($actualChat->ChatRoomId());
         $signIn2->SetUserId($actualUser->UserId());
         $signIn2->SetLoggedIn(1);
